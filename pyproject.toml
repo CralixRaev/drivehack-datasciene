@@ -1,0 +1,31 @@
+[tool.poetry]
+name = "jupyter-drivehack"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+notebook = "^6.4.12"
+jupyterlab = "^3.4.5"
+pandas = "^1.4.3"
+geopandas = "^0.11.1"
+gmaps = "^0.9.0"
+folium = "^0.12.1"
+matplotlib = "^3.5.3"
+mapclassify = "^2.4.3"
+contextily = "^1.2.0"
+ipyleaflet = "^0.17.1"
+jenkspy = "^0.3.1"
+seaborn = "^0.11.2"
+dask = {extras = ["distributed"], version = "^2022.8.1"}
+cloudpickle = "^2.1.0"
+pyarrow = "^9.0.0"
+bokeh = "^2.4.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
